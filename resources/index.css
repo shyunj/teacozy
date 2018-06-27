@@ -52,6 +52,7 @@ a{
 #mission{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
+  width: 1200px;
   padding-top: 70px;
 }
 
@@ -59,4 +60,38 @@ a{
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+/* Universal Styles - Tea of the Month*/
+.text_header{
+  display: block;
+}
+
+.tea_month{
+  width: 1200px;
+}
+
+.product_image{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+/* Universal Styles - Tea of the Month*/
+#locations{
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+}
+
+#locations_header{
+  display: block;
+}
+
+.location{
+  background-color: black;
+  opacity: 1;
+  padding: 10px;
+  width: 300px;
+  justify-content: space-around;
+  margin: 5px 20px;
 }
