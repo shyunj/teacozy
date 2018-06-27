@@ -1,7 +1,43 @@
-html{
-  font-family: Helvetica
+/* Universeal Styles */
+
+body{
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img{
+  max-height: 50px;
+  padding-left: 10px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+a{
+  color: seashell;
 }
