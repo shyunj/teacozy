@@ -41,3 +41,22 @@ nav span{
 a{
   color: seashell;
 }
+
+/* Universal Styles - Our Mission */
+.flex_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .content{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
